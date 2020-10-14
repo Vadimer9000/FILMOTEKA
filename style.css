@@ -1,0 +1,100 @@
+html{
+	height: 100%;
+}
+
+main{
+	flex: 1 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+body{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-image: url(assets/img/2.jpg);
+	background-size: cover;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+}
+header{
+	display:flex;
+	height:80px;
+	background-color:green;
+}
+h1{
+	color:white;
+	margin: 10px;
+	outline-style: dashed;
+    outline-color: white;
+    padding: 10px;
+	text-align: center;
+}
+.nav{
+	text-align: right;
+}
+a{
+	text-decoration: none;
+}
+.thumb img {
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-top: 100px;
+    margin-right: 0px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+    margin-left: 80px;
+   }
+.sign {
+    float: right; /* Выравнивание по правому краю */
+    border: 1px solid #333; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 10px 0 5px 5px; /* Отступы вокруг */
+    background: #f0f0f0; /* Цвет фона */ 
+   }
+   .sign figcaption {
+    margin: 0 auto 5px; /* Отступы вокруг абзаца */
+}
+
+.container{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.container p{
+	height: 500px;
+	width: 70%;
+	color:white;
+	font-size: 23px;
+	text-align: right;
+	margin-right: 20px;
+}
+
+iframe{
+	width: 70%;
+	height: 630px;
+	border: 0;
+}
+
+.iframe{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+}
+
+audio{
+	width: 70%;
+}
